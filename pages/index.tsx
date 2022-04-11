@@ -25,7 +25,7 @@ export async function getStaticProps () {
   
   return {
     props: {
-      message: hello.message
+      message: hello.message || 'Hello World'
     }
   }
 }
